@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    margin: 0%;
+    height: 100vh;
+}
+
+/*----------------------------------------------------*/
+/*SignIn styling */
+.container {
+    margin: 50px;
+    background-color: #F6DED8;
+    width: 350px;
+    border-radius: 20px;
+    border: 3px solid #D2665A;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container * {
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.container h2 {
+    text-align: center;
+    color: #D2665A;
+}
+
+.container label{
+    color: #D2665A;
+    font-size: 20px;
+}
+
+.button {
+    text-align: center;
+}
+.button button {
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #D2665A;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+}
+
+/*----------------------------------------------------*/
+/* ProfilePage styling */
+.containerBox {
+    background-color: #F6DED8;
+    width: 500px;
+    margin:  30px;
+    box-sizing: border-box;
+    display: flex;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: 3px solid #D2665A;
+    color: #D2665A;
+}
+
+.box1, .box2, .box3{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.box1,.box2,.box2 *{
+    display: block;
+}
+.box1{
+    width: 30%;
+    height: 100%;
+}
+
+.box2 ,.box3 { 
+    width: 70%;
+    height: 100%;
+}
+.box3{
+    display: none;
+}
+
+hr{
+    border: 2px solid #D2665A;
+}
+
+li{
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+}
+
+.button *{
+    padding: 5px;
+    width: auto;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #D2665A;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
