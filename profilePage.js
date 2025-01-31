@@ -12,7 +12,7 @@ document.getElementById("inputImage").addEventListener("change", function(event)
     if (file) {
         let reader = new FileReader(); 
         reader.onload = function(e) {
-            document.getElementById("profileImage").src = e.target.result; // Tchangi src dyal l'image
+            document.getElementById("profileImage").src = e.target.result; 
         };
         reader.readAsDataURL(file); 
     }
